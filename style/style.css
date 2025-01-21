@@ -1,0 +1,68 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+
+/* text oranges */
+.text-orange{
+  color: #FEA301;
+}
+
+/* text skyblue */
+.text-skyblue{
+  color: #01ACFD;
+}
+
+/* text aqua */
+.text-aqua{
+  color: #05D4DF;
+}
+/* text blue */
+.text-blue{
+  color: #5D58EF;
+}
+
+/* navbar related styles */
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.navbar{
+  align-items: center;
+  max-width: 1158.61px;
+  padding-top: 20px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+.nav-item{
+  list-style: none;
+  margin-right: 25px;
+}
+
+.nav-links{
+  
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-primary{
+  background-color: #FEA301;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 12px;
+  border: none;
+}
