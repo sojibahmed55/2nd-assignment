@@ -71,7 +71,8 @@
 .btn-primary{
   background-color: #FEA301;
   color: white;
-  padding: 10px 40px;
+  width: 197px;
+  height: 50px;
   border-radius: 12px;
   border: none;
 }
@@ -108,11 +109,70 @@
 /* main related styles */
 .bg-img{
   background-image: url("/assets/bg.png");
+  max-width: 1160px;
+  margin: 0 auto;
 }
 .section{
-  max-width: 1440px;
-  margin: 0 auto;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 80px;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 46px;
+}
+
+/* card related styles */
+.card.one{
+  background-image: linear-gradient(#DEF5FF,white);
+}
+.card.two{
+  background-image: linear-gradient(#FFF4DC,white);
+}
+.card.three{
+  background-image: linear-gradient(#EEE1FF,white);
+}
+.section{
+  background-image: url(/assets/bg.png);
+}
+.title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 80px;
+}
+.all-card{
+  text-align: center;
+  padding-top: 80px;
+  gap: 29px;
+  display: flex;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.card{
+  border-radius: 18px;
+  text-align: center;
+ 
+  padding: 50px 40px 50px 40px;
+}
+.card-title{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.card-description{
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 33px;
+}
+.card-btn{
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.icon{
+
+  margin-top: 80px;
 }
