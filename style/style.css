@@ -308,12 +308,13 @@
 /* ------------------------------------------footer related styles */
 
 .footer{
+  margin: 0 auto;
   background-color: #01ACFD;
  
 }
 .footer-container{
   padding-top: 130px;
-  max-width: 1158.61;
+  max-width: 1070.91px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -321,7 +322,6 @@
  row-gap: 20px;
 }
 .footer-logo{
-  
   display: flex;
   align-items: center;
   margin-bottom: 32px;
@@ -398,5 +398,8 @@
  .lg-content{
   text-align: center;
   align-items: center;
+ }
+ .icon{
+  display: none;
  }
 }
