@@ -354,6 +354,12 @@
  
   
 }
+.setting{
+  display: none;
+}
+hr{
+  display: none;
+}
 
 
 
@@ -402,4 +408,42 @@
  .icon{
   display: none;
  }
+ .footer-container{
+  flex-direction: column;
+ }
+ .paragraph{
+  padding: 0 15px 0 15px;
+  font-size: 1rem;
+ }
+ .hero{
+  width: 100%;
+  margin: 0 auto;
+ }
+ .about-content{
+  padding: 0 15px;
+ }
+ .link-section{
+  padding: 0 15px;
+ }
+ .schools{
+  display: none;
+ }
+ .logo{
+  display: flex;
+  justify-content: space-between;
+ 
+ }
+ .setting{
+  display: block;
+  font-size: 33px;
+ }
+ .all-card{
+  padding: 0 15px;
+ }
+ .banner-img{
+  margin: 0 auto;
+ }
+hr{
+display: block;
+}
 }
